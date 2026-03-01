@@ -1,23 +1,25 @@
 # AnimapleCore API 🍁
 
 ![Version](https://img.shields.io/badge/version-v1.0.0-emerald.svg)
-![Next.js](https://img.shields.io/badge/Next.js-15.x-black?logo=next.js)
+![Next.js](https://img.shields.io/badge/Next.js-16.x-black?logo=next.js)
 ![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-**AnimapleCore API** is the official backend engine powering the **Animaple Project**. Built with Next.js, this RESTful API seamlessly scrapes and serves real-time anime data from the Otakudesu website, delivering fast, reliable, and structured JSON responses for frontend integrations.
+**AnimapleCore API** is a highly optimized, unofficial REST API engine powering the **Animaple Project**. Built with modern Next.js 16, this API seamlessly scrapes and serves real-time anime metadata and streaming links from Otakudesu, delivering lightning-fast, structured JSON responses for frontend integrations.
 
-> **Disclaimer:** This project is developed strictly for personal, educational purposes, and as the backend infrastructure for Project Animaple. Use it at your own risk.
+> **Disclaimer:** This project is an unofficial API developed strictly for personal and educational purposes. It is not affiliated with, maintained, or endorsed by Otakudesu. Use it responsibly and at your own risk.
+
+## 🔗 Quick Links
+- 📖 **[Interactive Documentation](https://animaple-core.vercel.app)**
+- ⚖️ **[Terms of Service](https://animaple-core.vercel.app/terms)**
 
 ## ✨ Features
-- **Real-time Data Scraping:** Always get the latest updates, ongoing series, and complete batches.
-- **Serverless Ready:** Fully optimized for seamless deployment on Vercel as Serverless Functions.
-- **Modern Stack:** Built on top of Next.js App Router for maximum performance and caching.
-- **Clean JSON Structure:** Professional and predictable data mapping for easy frontend consumption.
+- **Cloudflare Bypass:** Utilizes ScraperAPI to reliably extract upstream data without blocks or captchas.
+- **Smart Tiered Caching:** Leverages Vercel Edge Cache (6h/24h/7d) to minimize upstream requests, save quota, and maximize speed.
+- **Enterprise Rate Limiting:** Secured by Upstash Redis (30 requests/minute per IP) to prevent abuse and DDoS attacks.
+- **Clean JSON Structure:** Professional and predictable data mapping for effortless frontend consumption.
 
 ## 📡 Available Endpoints
-
-Here are some of the main endpoints provided by AnimapleCore:
 
 | Endpoint | Method | Description |
 | :--- | :---: | :--- |
@@ -40,5 +42,5 @@ This project is licensed under the [MIT License](./LICENSE).
 ---
 <p align="center">
   <b>Animaple Project</b><br>
-  Developed by <a href="https://github.com/ofikur">Ofikur R.</a>
+  Developed by <a href="[https://github.com/ofikur](https://github.com/ofikur)">Ofikur R.</a>
 </p>
