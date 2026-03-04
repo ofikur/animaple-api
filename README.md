@@ -10,6 +10,7 @@
 > **Disclaimer:** This project is an unofficial API developed strictly for personal and educational purposes. It is not affiliated with, maintained, or endorsed by Otakudesu. Use it responsibly and at your own risk.
 
 ## 🔗 Quick Links
+- 📦 **[Original Repository](https://github.com/animaplexyz/animaple-core)**
 - 📖 **[Interactive Documentation](https://animaple-core.vercel.app)**
 - ⚖️ **[Terms of Service](https://animaple-core.vercel.app/terms)**
 
@@ -42,5 +43,5 @@ This project is licensed under the [MIT License](./LICENSE).
 ---
 <p align="center">
   <b>Animaple Project</b><br>
-  Developed by <a href="[https://github.com/ofikur](https://github.com/ofikur)">Ofikur R.</a>
+  Original Repository: <a href="https://github.com/animaplexyz/animaple-core">animaplexyz/animaple-core</a>
 </p>
